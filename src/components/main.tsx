@@ -1,10 +1,9 @@
 import { Card } from "./card";
 import background from "/background.png";
-import { HiOutlineAcademicCap } from "react-icons/hi2";
-import { PiFolders } from "react-icons/pi";
-import { TbWorld } from "react-icons/tb";
-import { MdBalance } from "react-icons/md";
-import { FaCheck } from "react-icons/fa";
+import { AiOutlineDollar } from "react-icons/ai";
+import { PiClockCountdownBold } from "react-icons/pi";
+import { FaCheck, FaRegStar } from "react-icons/fa";
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { useState } from "react";
 
 export const Main = () => {
@@ -28,7 +27,7 @@ export const Main = () => {
           <h1 className="text-2xl font-bold">
             Venda seu Precatório com Agilidade e Segurança
           </h1>
-          <p className="text-sm font-thin">
+          <p className="text-sm font-normal">
             <span className="font-light">
               Receba seu dinheiro sem burocracia!
             </span>{" "}
@@ -36,9 +35,14 @@ export const Main = () => {
             Cansado da longa espera? Antecipe seu precatório com rapidez,
             segurança e as melhores condições do mercado, sem sair de casa.
           </p>
-          <button className="cursor-pointer rounded-md bg-[#CF9A2A] px-5 py-2 text-xs font-semibold transition-all duration-300 hover:bg-white hover:text-[#CF9A2A] active:bg-orange-200">
-            Entrar em contato
-          </button>
+          <a
+            href="https://api.whatsapp.com/send?phone=5531997948742"
+            aria-label="Entrar em contato pelo WhatsApp"
+          >
+            <button className="cursor-pointer rounded-md bg-[#CF9A2A] px-5 py-2 text-xs font-semibold transition-all duration-300 hover:bg-white hover:text-[#CF9A2A] active:bg-orange-200">
+              Entrar em contato
+            </button>
+          </a>
         </div>
       </section>
       <section className="m-auto max-w-5xl px-4 py-20" id="precatórios">
@@ -53,7 +57,7 @@ export const Main = () => {
             {diplomas.map((diploma, index) => (
               <p
                 key={index}
-                className={`flex items-center gap-2 rounded-3xl border border-[#CF9A2A] px-2 py-2 text-center text-sm font-thin transition-all duration-500 hover:bg-[#CF9A2A] ${colorActived === index ? "bg-[#CF9A2A]" : ""}`}
+                className={`flex items-center gap-2 rounded-3xl border border-[#CF9A2A] px-2 py-2 text-center text-sm font-normal transition-all duration-500 hover:bg-[#CF9A2A] ${colorActived === index ? "bg-[#CF9A2A]" : ""}`}
                 onClick={() =>
                   setColorActived(colorActived === index ? null : index)
                 }
@@ -81,24 +85,24 @@ export const Main = () => {
               Por que vender seu precatório conosco?
             </h2>
           </div>
-          <div className="flex w-full flex-wrap items-center justify-evenly gap-x-2 gap-y-8 py-10">
+          <div className="flex w-full flex-wrap items-center justify-evenly gap-x-4 gap-y-8 px-16 py-10 lg:px-0">
             <Card
-              icon={<HiOutlineAcademicCap />}
+              icon={<IoShieldCheckmarkOutline />}
               number={1}
               heading={"Processo rápido e transparente"}
             />
             <Card
-              icon={<PiFolders />}
+              icon={<AiOutlineDollar />}
               number={2}
               heading={"Melhores condições de pagamento"}
             />
             <Card
-              icon={<TbWorld />}
+              icon={<PiClockCountdownBold />}
               number={3}
               heading={"Evite a longa espera na fila do governo"}
             />
             <Card
-              icon={<MdBalance />}
+              icon={<FaRegStar />}
               number={4}
               heading={"Acompanhamento Completo e Suporte Jurídico"}
             />

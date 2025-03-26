@@ -14,7 +14,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 64) {
+      if (window.scrollY > 112) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -29,9 +29,9 @@ export const Header = () => {
 
   return (
     <header
-      className={`fixed h-14 w-full ${scrolled ? "bg-gradient-to-r from-black to-[#CF9A2A]" : ""}`}
+      className={`fixed w-full ${scrolled ? "bg-gradient-to-r from-black to-[#CF9A2A]" : ""}`}
     >
-      <div className="relative m-auto flex max-w-5xl items-center justify-between px-5 py-5">
+      <div className="relative m-auto flex max-w-5xl items-center justify-between py-2">
         <figure>
           <img src={logo} alt="logo of company" className="w-24" />
         </figure>
@@ -98,11 +98,11 @@ export const Header = () => {
           </nav>
         )}
         <nav className="hidden min-w-1/2 lg:block">
-          <menu className="flex justify-between gap-4 text-sm">
+          <menu className="flex text-sm">
             <li className="flex items-center">
               <a
                 href="#areasActivity"
-                className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
               >
                 Precatórios que compramos
               </a>
@@ -110,7 +110,7 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#benefits"
-                className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
               >
                 Vantagens de vender conosco
               </a>
@@ -118,7 +118,7 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#contact"
-                className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
               >
                 Contato
               </a>
@@ -126,14 +126,14 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#"
-                className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
               >
                 Validação de diplomas
               </a>
             </li>
-            <li className="flex items-center gap-3 px-5 py-2">
+            <li className="flex items-center py-2">
               <a href="https://api.whatsapp.com/send?phone=5531997948742">
-                <button className="flex cursor-pointer items-center gap-3 rounded-md bg-[#FFFFFF] px-5 py-2 text-[#B2821A] transition-all duration-300 hover:bg-[#CF9A2A] hover:text-white active:bg-orange-200">
+                <button className="flex cursor-pointer items-center gap-2 rounded-md bg-[#FFFFFF] px-4 py-2 text-[#B2821A] transition-all duration-300 hover:bg-[#CF9A2A] hover:text-white active:bg-orange-200">
                   Entre em contato <FaArrowRight />
                 </button>
               </a>

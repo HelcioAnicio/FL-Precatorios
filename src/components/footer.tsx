@@ -8,8 +8,8 @@ export const Footer = () => {
       id="contact"
     >
       <p className="text-xs font-normal text-[#CF9A2A]">Fale conosco</p>
-      <h2 className="break-words text-3xl font-bold">Entre em contato</h2>
-      <p className="m-auto max-w-xl text-sm font-thin">
+      <h2 className="text-3xl font-bold break-words">Entre em contato</h2>
+      <p className="m-auto max-w-xl text-sm font-normal">
         Estamos à disposição para esclarecer todas as suas dúvidas. Entre em
         contato conosco e teremos prazer em ajudar!
       </p>
