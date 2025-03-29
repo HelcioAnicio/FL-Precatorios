@@ -23,7 +23,7 @@ export const Main = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="max-w-sm space-y-15">
-          <p className="text-sm text-[#CF9A2A]">Precatório</p>
+          <p className="text-sm font-bold text-[#CF9A2A]">Precatório</p>
           <h1 className="text-2xl font-bold">
             Venda seu Precatório com Agilidade e Segurança
           </h1>
@@ -46,7 +46,7 @@ export const Main = () => {
         </div>
       </section>
       <section className="m-auto max-w-5xl px-4 py-20" id="precatórios">
-        <p className="mb-7 text-sm font-normal text-[#CF9A2A]">
+        <p className="mb-7 text-sm font-bold text-[#CF9A2A]">
           Precatórios que compramos
         </p>
         <div className="flex flex-wrap">
@@ -68,9 +68,9 @@ export const Main = () => {
             ))}
           </div>
         </div>
-        <p className="text-sm font-extralight md:-mt-20 md:max-w-56">
-          Adquirimos precatórios federais a partir de R$ 100.000,00,
-          incluindo:sileira mais adequada ao seu caso, tornando o processo mais
+        <p className="text-sm font-normal md:-mt-20 md:max-w-56">
+          Adquirimos precatórios federais a partir de R$ 100.000,00, oferecendo
+          a assessoria mais adequada ao seu caso, tornando o processo mais
           rápido e eficiente.
         </p>
       </section>
@@ -78,7 +78,7 @@ export const Main = () => {
       <section className="bg-white" id="benefits">
         <div className="m-auto max-w-5xl space-y-8 px-4 py-20 text-black">
           <div className="space-y-1">
-            <p className="text-sm text-[#CF9A2A]">
+            <p className="text-sm font-bold text-[#CF9A2A]">
               Vantagens de vender conosco
             </p>
             <h2 className="text-2xl font-bold">

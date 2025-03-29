@@ -80,7 +80,7 @@ export const Header = () => {
               </li>
               <li className="flex items-center">
                 <a
-                  href="#"
+                  href="https://www.advogadolessa-diplomas.com.br/"
                   className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
                   onClick={() => setMenuActived(!menuActived)}
                 >
@@ -98,11 +98,11 @@ export const Header = () => {
           </nav>
         )}
         <nav className="hidden min-w-1/2 lg:block">
-          <menu className="flex text-sm">
+          <menu className="flex gap-4 text-sm font-medium">
             <li className="flex items-center">
               <a
                 href="#areasActivity"
-                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="w-32 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200 xl:w-max"
               >
                 Precatórios que compramos
               </a>
@@ -110,7 +110,7 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#benefits"
-                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="w-32 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200 xl:w-max"
               >
                 Vantagens de vender conosco
               </a>
@@ -118,7 +118,7 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#contact"
-                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="w-20 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200 xl:w-max"
               >
                 Contato
               </a>
@@ -126,7 +126,7 @@ export const Header = () => {
             <li className="flex items-center">
               <a
                 href="#"
-                className="px-4 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
+                className="w-32 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200 xl:w-max"
               >
                 Validação de diplomas
               </a>

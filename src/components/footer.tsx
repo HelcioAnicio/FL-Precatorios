@@ -7,7 +7,7 @@ export const Footer = () => {
       className="m-auto flex w-full max-w-5xl flex-col gap-4 px-1 py-20 text-center"
       id="contact"
     >
-      <p className="text-xs font-normal text-[#CF9A2A]">Fale conosco</p>
+      <p className="text-xs font-bold text-[#CF9A2A]">Fale conosco</p>
       <h2 className="text-3xl font-bold break-words">Entre em contato</h2>
       <p className="m-auto max-w-xl text-sm font-normal">
         Estamos à disposição para esclarecer todas as suas dúvidas. Entre em
@@ -31,8 +31,8 @@ export const Footer = () => {
         className="decoration-gray-400 underline-offset-2 transition-all duration-300 hover:underline"
       >
         <address className="font-thin">
-          Rua Dom Oscar Romero, 18 - Sobreloja - Nova Gamelei - Belo Horizonte -
-          MG - 30510-080
+          Rua Dom Oscar Romero, 18 - Sobreloja - Nova Gameleira - Belo Horizonte
+          - MG - 30510-080
         </address>
       </a>
       <p className="text-sm font-bold">Francisco Galvão Lessa - Advogado</p>
