@@ -14,7 +14,7 @@ export const Footer = () => {
         contato conosco e teremos prazer em ajudar!
       </p>
       <a
-        href="https://api.whatsapp.com/send?phone=5531997948742"
+        href="https://api.whatsapp.com/send?phone=5531971426893."
         className="m-auto my-10 flex w-full max-w-80 items-center justify-center"
       >
         <button className="w-4/6 rounded-lg bg-white py-1 text-black">
