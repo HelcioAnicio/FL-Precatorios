@@ -84,7 +84,7 @@ export const Header = () => {
                   className="px-5 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200"
                   onClick={() => setMenuActived(!menuActived)}
                 >
-                  Validação de diplomas
+                  Revalidação de diplomas
                 </a>
               </li>
               <li className="flex flex-wrap items-center gap-3 px-5 py-2 hover:text-[#CF9A2A]">
@@ -128,7 +128,7 @@ export const Header = () => {
                 href="https://www.advogadolessa-diplomas.com.br"
                 className="w-32 py-2 transition-all duration-300 hover:text-[#CF9A2A] active:text-orange-200 xl:w-max"
               >
-                Validação de diplomas
+                Revalidação de diplomas
               </a>
             </li>
             <li className="flex items-center py-2">
