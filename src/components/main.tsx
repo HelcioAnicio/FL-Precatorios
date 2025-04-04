@@ -19,30 +19,32 @@ export const Main = () => {
   return (
     <main className="h-full w-full">
       <section
-        className="m-auto h-dvh max-w-5xl bg-cover bg-center bg-no-repeat px-4 py-40"
+        className="h-dvh bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${background})` }}
       >
-        <div className="max-w-sm space-y-15">
-          <p className="text-sm font-bold text-[#CF9A2A]">Precatório</p>
-          <h1 className="text-2xl font-bold">
-            Venda seu Precatório com Agilidade e Segurança
-          </h1>
-          <p className="text-sm font-normal">
-            <span className="font-light">
-              Receba seu dinheiro sem burocracia!
-            </span>{" "}
-            <br />
-            Cansado da longa espera? Antecipe seu precatório com rapidez,
-            segurança e as melhores condições do mercado, sem sair de casa.
-          </p>
-          <a
-            href="https://api.whatsapp.com/send?phone=5531971426893."
-            aria-label="Entrar em contato pelo WhatsApp"
-          >
-            <button className="cursor-pointer rounded-md bg-[#CF9A2A] px-5 py-2 text-xs font-semibold transition-all duration-300 hover:bg-white hover:text-[#CF9A2A] active:bg-orange-200">
-              Entrar em contato
-            </button>
-          </a>
+        <div className="m-auto h-dvh max-w-5xl bg-cover bg-center bg-no-repeat px-1 py-24 sm:px-4 sm:py-44">
+          <div className="max-w-sm space-y-15">
+            <p className="text-sm font-bold text-[#CF9A2A]">Precatório</p>
+            <h1 className="text-2xl font-bold">
+              Venda seu Precatório com Agilidade e Segurança
+            </h1>
+            <p className="text-sm font-normal">
+              <span className="font-light">
+                Receba seu dinheiro sem burocracia!
+              </span>{" "}
+              <br />
+              Cansado da longa espera? Antecipe seu precatório com rapidez,
+              segurança e as melhores condições do mercado, sem sair de casa.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5531971426893."
+              aria-label="Entrar em contato pelo WhatsApp"
+            >
+              <button className="cursor-pointer rounded-md bg-[#CF9A2A] px-5 py-2 text-xs font-semibold transition-all duration-300 hover:bg-white hover:text-[#CF9A2A] active:bg-orange-200">
+                Entrar em contato
+              </button>
+            </a>
+          </div>
         </div>
       </section>
       <section className="m-auto max-w-5xl px-4 py-20" id="precatórios">
