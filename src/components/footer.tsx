@@ -18,7 +18,7 @@ export const Footer = () => {
         className="m-auto my-10 flex w-full max-w-80 items-center justify-center"
       >
         <button className="w-4/6 rounded-lg bg-white py-1 text-black">
-          (31) 99794-8742
+          (31) 97142-6893
         </button>
         <IoLogoWhatsapp className="-ml-3 size-8 rounded-md bg-[#CF9A2A] px-2 transition-all duration-300 hover:bg-yellow-500" />
       </a>
