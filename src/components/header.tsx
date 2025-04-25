@@ -88,7 +88,7 @@ export const Header = () => {
                 </a>
               </li>
               <li className="flex flex-wrap items-center gap-3 px-5 py-2 hover:text-[#CF9A2A]">
-                <a href="https://api.whatsapp.com/send?phone=5531971426893.">
+                <a href="https://wa.me/5531971426893">
                   <button className="flex cursor-pointer items-center gap-3 rounded-md bg-[#FFFFFF] px-5 py-2 text-[#B2821A] transition-all duration-300 hover:bg-[#CF9A2A] hover:text-white active:bg-orange-200">
                     Entre em contato <FaArrowRight />
                   </button>
@@ -132,7 +132,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="flex items-center py-2">
-              <a href="https://api.whatsapp.com/send?phone=5531971426893.">
+              <a href="https://wa.me/5531971426893">
                 <button className="flex cursor-pointer items-center gap-2 rounded-md bg-[#FFFFFF] px-4 py-2 text-[#B2821A] transition-all duration-300 hover:bg-[#CF9A2A] hover:text-white active:bg-orange-200">
                   Entre em contato <FaArrowRight />
                 </button>
