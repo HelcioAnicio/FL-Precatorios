@@ -13,12 +13,14 @@ export const Footer = () => {
         Estamos à disposição para esclarecer todas as suas dúvidas. Entre em
         contato conosco e teremos prazer em ajudar!
       </p>
+/*
       <a
         className="m-auto max-w-xl text-sm font-normal underline"
         href="/politica-de-privacidade"
       >
         Nossa politíca de privacidade
       </a>
+*/
 
       <a
         href="https://wa.me/5531971426893"
