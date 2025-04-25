@@ -14,7 +14,14 @@ export const Footer = () => {
         contato conosco e teremos prazer em ajudar!
       </p>
       <a
-        href="https://api.whatsapp.com/send?phone=5531971426893."
+        className="m-auto max-w-xl text-sm font-normal underline"
+        href="/politica-de-privacidade"
+      >
+        Nossa politíca de privacidade
+      </a>
+
+      <a
+        href="https://wa.me/5531971426893"
         className="m-auto my-10 flex w-full max-w-80 items-center justify-center"
       >
         <button className="w-4/6 rounded-lg bg-white py-1 text-black">

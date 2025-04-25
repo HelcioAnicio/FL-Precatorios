@@ -1,5 +1,5 @@
 import { Card } from "./card";
-import background from "/background.png";
+// import background from "/background.png";
 import { AiOutlineDollar } from "react-icons/ai";
 import { PiClockCountdownBold } from "react-icons/pi";
 import { FaCheck, FaRegStar } from "react-icons/fa";
@@ -20,7 +20,7 @@ export const Main = () => {
     <main className="h-full w-full">
       <section
         className="h-dvh bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${background})` }}
+        // style={{ backgroundImage: `url(${background})` }}
       >
         <div className="m-auto h-dvh max-w-5xl bg-cover bg-center bg-no-repeat px-1 py-24 sm:px-4 sm:py-44">
           <div className="max-w-sm space-y-15">
@@ -37,7 +37,7 @@ export const Main = () => {
               segurança e as melhores condições do mercado, sem sair de casa.
             </p>
             <a
-              href="https://api.whatsapp.com/send?phone=5531971426893."
+              href="https://wa.me/5531971426893"
               aria-label="Entrar em contato pelo WhatsApp"
             >
               <button className="cursor-pointer rounded-md bg-[#CF9A2A] px-5 py-2 text-xs font-semibold transition-all duration-300 hover:bg-white hover:text-[#CF9A2A] active:bg-orange-200">

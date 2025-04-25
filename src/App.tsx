@@ -1,14 +1,17 @@
-import { Footer } from "./components/footer";
-import { Header } from "./components/header";
-import { Main } from "./components/main";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import PrivacyPolicy from "./pages/privacyPolicy";
+import CookieConsent from "./components/cookieConsent";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
+      </Routes>
+      <CookieConsent />
+    </Router>
   );
 }
 
