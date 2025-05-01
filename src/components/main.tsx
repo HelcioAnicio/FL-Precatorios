@@ -1,5 +1,5 @@
 import { Card } from "./card";
-// import background from "/background.png";
+import background from "/background.png";
 import { AiOutlineDollar } from "react-icons/ai";
 import { PiClockCountdownBold } from "react-icons/pi";
 import { FaCheck, FaRegStar } from "react-icons/fa";
@@ -20,7 +20,7 @@ export const Main = () => {
     <main className="h-full w-full">
       <section
         className="h-dvh bg-cover bg-center bg-no-repeat"
-        // style={{ backgroundImage: `url(${background})` }}
+        style={{ backgroundImage: `url(${background})` }}
       >
         <div className="m-auto h-dvh max-w-5xl bg-cover bg-center bg-no-repeat px-1 py-24 sm:px-4 sm:py-44">
           <div className="max-w-sm space-y-15">
